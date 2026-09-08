@@ -4,7 +4,7 @@ Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), 
 
 Este projeto é desenvolvido pelos seguintes alunos:
 
-- Nome Componente 1
+- Natan Guimarães dos Santos
 - Nome Componente 2
 - Nome Componente 3
 
