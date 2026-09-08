@@ -10,7 +10,6 @@ Este projeto é desenvolvido pelos seguintes alunos:
 
 ## Conhecendo o problema
 
-Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
 **1. Breve descrição**
 Trata-se de um aplicativo móvel voltado especificamente para o público da terceira idade, projetado para orientar, monitorar e incentivar a prática de atividades físicas de forma segura. A plataforma oferece rotinas de exercícios de baixo impacto, adaptadas às limitações comuns da idade, com foco em usabilidade e acessibilidade.
 
