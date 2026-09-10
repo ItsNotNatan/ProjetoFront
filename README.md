@@ -5,8 +5,8 @@ Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), 
 Este projeto é desenvolvido pelos seguintes alunos:
 
 - Natan Guimarães dos Santos
-- Nome Componente 2
-- Nome Componente 3
+- Samuel Giese Antonioli
+- Mario Eugenio Silva
 
 ## Conhecendo o problema
 
