@@ -2,54 +2,80 @@
 
 > **_NOTE:_**: A Persona transforma o Perfil do Usuário (dados reais, agregados) em um arquétipo fictício único, que humaniza o público-alvo e orienta decisões de design. Use o segmento priorizado na etapa anterior como base — não invente características que contradigam a pesquisa.
 
-- Apresente apenas as personas primárias (o(s) segmento(s) priorizado(s) no Perfil do Usuário). Personas secundárias só se forem realmente necessárias para alguma decisão de design.
-- Para cada persona, apresente: nome, foto de rosto, idade, ocupação, uma frase/citação que resuma sua motivação ou frustração principal, objetivos em relação ao produto/serviço e nível de familiaridade com tecnologia.
-- Toda característica da persona deve ser rastreável aos dados coletados na pesquisa (não adicione traços "porque parece razoável").
+## Persona primária: João Batista
 
-> **_NOTE:_**: Cada persona deve ter uma foto de rosto que a represente. Vocês podem utilizar esse [site](https://thispersondoesnotexist.com/) para gerar as fotos.
+![foto de rosto ilustrativa](imagens/joao.jpeg)
+
+| Campo | Descrição |
+| :---- | :---- |
+| **Idade** | 72 anos |
+| **Ocupação** | Aposentado (ex-professor do ensino médio) |
+| **Citação** | "Preciso me movimentar para não perder a independência, mas tenho medo de fazer algum movimento errado sozinho." |
+| **Objetivos** | Fazer exercícios diários de baixo impacto de forma segura, mantendo a autonomia física sem precisar sair de casa. |
+| **Nível de tecnologia** | Médio — usa o smartphone para WhatsApp e ler notícias, mas tem dificuldade com botões pequenos e interfaces muito poluídas. |
+| **Frustração principal** | Aplicativos convencionais de saúde possuem letras minúsculas, botões confusos e treinos muito intensos ou rápidos para sua faixa etária. |
+
+## Persona primária: Maria Aparecida
+
+![foto de rosto ilustrativa](imagens/maria.jpeg)
+
+| Campo | Descrição |
+| :---- | :---- |
+| **Idade** | 68 anos |
+| **Ocupação** | Aposentada, dona de casa |
+| **Citação** | "O médico mandou eu alongar e caminhar todos os dias, mas eu acabo esquecendo ou perco a vontade de fazer sozinha." |
+| **Objetivos** | Ter um incentivo diário para cumprir as recomendações médicas e lembrar dos horários de hidratação e alongamento. |
+| **Nível de tecnologia** | Baixo — sabe atender chamadas e mandar áudios, mas precisa da ajuda dos netos para instalar novos aplicativos ou lidar com configurações. |
+| **Frustração principal** | Esquece a ordem e a forma correta dos exercícios recomendados pelo fisioterapeuta e sente-se desmotivada sem um acompanhamento. |
+
+## Persona secundária: Roberto Batista
+
+![foto de rosto ilustrativa](imagens/roberto.jpeg)
+
+| Campo | Descrição |
+| :---- | :---- |
+| **Idade** | 45 anos |
+| **Ocupação** | Engenheiro Civil (Filho do João Batista) |
+| **Citação** | "Passo o dia todo no escritório preocupado se meu pai fez os exercícios ou se aconteceu alguma emergência." |
+| **Objetivos** | Acompanhar o progresso físico do pai à distância e ter a garantia de ser alertado imediatamente em caso de acidentes. |
+| **Nível de tecnologia** | Alto — utiliza o smartphone e o computador o dia todo para gestão de projetos e controle da rotina pessoal. |
+| **Frustração principal** | Falta de tempo para checar presencialmente se o pai está cumprindo a rotina de saúde e o medo constante de quedas durante o dia. |
+
+---
 
 # Mapa de Empatia
 
 ![Mapa de empatia](imagens/empatia.png)
 
-- Determine o mapa de empatia[1] de pelo menos duas personas primárias e uma secundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com serviço ou produto.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação ao serviço ou produto. Quais expectativas o usuário cria sobre o serviço ou produto? Que tipo de serviço ou produto mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou produto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou produto satisfaz?
-
-> **_NOTE:_**: Contexto de Uso e Jornada do Usuário ficam na próxima entrega ([Cenário de Análise/Problema](5_cenarios.md)).
-
----
-
-## Exemplo de entrega
-
-> Continuação do exemplo fictício do app "Estuda+", usando o segmento "Participante" priorizado no [Perfil do Usuário](3_perfil_usuario.md). Copie a estrutura, não o conteúdo.
-
-### Persona primária: Marina Souza
-
-![foto de rosto ilustrativa](imagens/random-person.jpeg)
-
-| Campo | Descrição |
-| :---- | :---- |
-| **Idade** | 20 anos |
-| **Ocupação** | Estudante de Ciência da Computação (4º semestre), estagiária meio período |
-| **Citação** | "Eu entro no grupo animada, mas depois de duas semanas ninguém mais responde." |
-| **Objetivos** | Manter um grupo de estudo ativo até a prova, sem precisar ser ela quem cobra todo mundo. |
-| **Nível de tecnologia** | Alto — usa smartphone o dia todo, já usa WhatsApp/Discord para grupos de estudo. |
-| **Frustração principal** | Grupos de estudo perdem engajamento depois de 1-2 semanas; ninguém sabe quem devia estudar qual tópico. |
-
-### Mapa de Empatia — Marina
+### Mapa de Empatia — João Batista
 
 | Quadrante | Descrição |
 | :---- | :---- |
-| **Vê** | Grupos de WhatsApp silenciosos, mensagens antigas sem resposta, colegas postando resumos de estudo no Instagram. |
-| **Ouve** | Colegas comentando "vamos criar um grupo pra prova" — que raramente vinga; professor cobrando conteúdo acumulado perto da prova. |
-| **Diz e faz** | Entra em grupos recém-criados com entusiasmo; para de responder quando ninguém mais participa; estuda sozinha nas últimas semanas antes da prova. |
-| **Pensa e sente** | Acha que estudar em grupo ajudaria mais; sente-se culpada por "abandonar" grupos; insegura sobre se está estudando o conteúdo certo. |
-| **Dores** | Falta de clareza sobre quem estuda o quê; ausência de lembretes; grupos que morrem sem ninguém assumir a organização. |
-| **Ganhos** | Divisão automática de tópicos, lembretes de sessão, sensação de progresso visível do grupo. |
+| **Vê** | Colegas de sua idade perdendo a mobilidade; os filhos sempre correndo e ocupados com o trabalho; programas de TV sobre qualidade de vida na velhice. |
+| **Ouve** | O médico alertando sobre os riscos do sedentarismo; os filhos repetindo constantemente para ele "tomar cuidado para não cair". |
+| **Diz e faz** | Passa muitas horas sentado assistindo TV; tenta fazer alguns alongamentos esporádicos, mas desiste rapidamente; reclama de dores nas articulações. |
+| **Pensa e sente** | Sente muito medo de perder sua independência e se tornar um fardo para a família; inseguro sobre como executar os exercícios corretamente sozinho. |
+| **Dores** | Dificuldade de enxergar textos em telas pequenas; medo de lesões ao se exercitar sem supervisão; interface de aplicativos atuais não atende suas limitações visuais e motoras. |
+| **Ganhos** | Ganho de força muscular e equilíbrio; facilidade para iniciar um exercício apenas com um toque grande na tela; sentimento de realização ao visualizar seu progresso diário. |
 
-[1] Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
+### Mapa de Empatia — Maria Aparecida
+
+| Quadrante | Descrição |
+| :---- | :---- |
+| **Vê** | A casa silenciosa durante o dia; receitas e dicas de saúde em vídeos da internet; caixas de remédios acumulando sobre a mesa. |
+| **Ouve** | O fisioterapeuta explicando os movimentos nas consultas mensais; vizinhas comentando sobre dores no corpo e problemas de pressão. |
+| **Diz e faz** | Diz que vai começar a caminhar na segunda-feira, mas adia; bebe pouca água durante o dia; pede ajuda aos netos sempre que o celular "muda de tela sozinho". |
+| **Pensa e sente** | Sente-se solitária durante a rotina de exercícios; pensa que a tecnologia não foi feita para pessoas da sua idade; deseja ser mais disposta. |
+| **Dores** | Esquecimento das rotinas médicas e de hidratação; frustração ao tentar usar aplicativos complexos; falta de motivação para se manter ativa diariamente. |
+| **Ganhos** | Lembretes sonoros amigáveis que guiam o dia; vídeos claros ensinando a fazer os exercícios na cadeira; sensação de pertencimento e autonomia digital. |
+
+### Mapa de Empatia — Roberto Batista (Familiar)
+
+| Quadrante | Descrição |
+| :---- | :---- |
+| **Vê** | A rotina frenética do próprio trabalho; o envelhecimento progressivo do pai; notícias frequentes sobre acidentes domésticos envolvendo idosos. |
+| **Ouve** | O pai minimizando os próprios sintomas de dor; médicos recomendando supervisão constante para evitar fraturas. |
+| **Diz e faz** | Liga para o pai sempre que pode no horário de almoço; tenta visitá-lo aos finais de semana para organizar os remédios e encorajar pequenas caminhadas. |
+| **Pensa e sente** | Sente-se culpado por não estar tão presente fisicamente; ansioso e sobrecarregado pela responsabilidade de monitorar a saúde do pai à distância. |
+| **Dores** | Incerteza absoluta sobre se o pai está ativo ou apenas sentado o dia todo; medo paralisante de que ele sofra uma queda e não consiga pedir socorro. |
+| **Ganhos** | Paz de espírito gerada por relatórios de saúde compartilháveis; segurança extrema ao saber da existência de um botão SOS de fácil acesso no celular do pai. |
