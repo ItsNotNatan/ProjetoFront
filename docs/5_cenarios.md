@@ -1,78 +1,130 @@
-# Cenário de Análise/Problema
 
-> **_NOTE:_**: A equipe deve pensar em cenários existentes na atualidade (que causam problemas para os usuários) e que a interface prevista ajudará a resolver o problema. Cenário de Análise/Problema é uma história triste. Não descreve a solução. Descreve somente o problema.
+# 1. Cenário de Análise/Problema
 
-1) **Cenário de Análise/Problema**
-- Escreva uma narrativa (não uma lista de requisitos) contando como a persona vive o problema hoje.
-- Baseie-se nas dores identificadas no [Perfil do Usuário](3_perfil_usuario.md) e no [Mapa de Empatia](4_personas.md) — não invente um problema novo.
-- Não mencione o produto/serviço que a equipe vai construir; a história descreve a vida da persona **antes** dele existir.
+João Batista tem 72 anos, é aposentado e passa boa parte dos seus dias em casa. Desde que começou a sentir dores frequentes nas articulações, percebeu que atividades simples estão se tornando mais cansativas. Ao assistir à televisão por várias horas, lembra das recomendações médicas sobre a importância de se movimentar, mas raramente consegue manter uma rotina de exercícios.
 
-2) **Questões de Refinamento**
-- Levante perguntas sobre o cenário que ainda ficaram em aberto: por que isso acontece? Acontece sempre ou só às vezes? Quem mais é afetado? O que a persona já tentou para resolver?
-- O objetivo é encontrar lacunas e suposições no cenário inicial, não respondê-las ainda.
+Seus filhos trabalham durante o dia e não conseguem acompanhá-lo constantemente. João entende que precisa cuidar melhor da saúde, principalmente depois de observar amigos da mesma idade perderem parte da mobilidade. Entretanto, sente medo de realizar movimentos incorretos e acabar sofrendo alguma lesão.
 
-3) **Refinamento do Cenário de Análise/Problema**
-- Reescreva o cenário incorporando as respostas às questões de refinamento, tornando-o mais específico, concreto e verificável.
+Em algumas ocasiões, tenta encontrar exercícios na internet ou fazer alongamentos por conta própria. Porém, encontra dificuldades para enxergar as instruções em telas pequenas e compreender os movimentos demonstrados. Quando tenta utilizar aplicativos de saúde, frequentemente se depara com letras pequenas, muitos elementos na tela e atividades que parecem intensas demais para sua condição física.
 
-4) **Contexto de Uso**
-- Descreva o ambiente em que o problema ocorre (e onde o futuro produto/serviço deverá ser utilizado).
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-- Quais informações sobre o ambiente devem ser consideradas antes de qualquer interação?
-- O que normalmente está acontecendo no ambiente quando o problema ocorre?
+Com receio de piorar suas dores, acaba interrompendo os exercícios e volta a passar grande parte do tempo sentado. Essa situação gera frustração e preocupação, pois João teme perder sua independência e precisar depender cada vez mais dos filhos para realizar atividades cotidianas.
 
-5) **Jornada do Usuário (atual, sem solução)**
-- Descreva a jornada da persona enfrentando o problema **hoje**, do início ao fim do cenário — sem envolver o produto/serviço que a equipe vai construir.
-- Aponte, em cada etapa, o estado emocional da persona (frustração, confiança, dúvida, satisfação).
-- Complemente com um diagrama de jornada (`journey`) do Mermaid, agrupando as etapas em seções e atribuindo uma nota de 1 (péssimo) a 9 (ótimo) ao estado emocional de cada uma.
+Enquanto isso, Roberto, seu filho, passa o dia trabalhando e tenta acompanhar a situação por telefone. Mesmo quando consegue conversar com o pai, não tem como saber exatamente como ele está passando o restante do dia. Essa distância gera preocupação constante, principalmente pelo medo de que João sofra uma queda ou tenha alguma complicação enquanto estiver sozinho.
 
----
+Maria Aparecida, outra pessoa que enfrenta dificuldades semelhantes, também sente os impactos de uma rotina pouco ativa. Embora receba orientações do fisioterapeuta, frequentemente esquece os horários e a sequência dos exercícios. A falta de companhia e motivação faz com que adie suas caminhadas e alongamentos, aumentando a sensação de solidão e desânimo.
 
-## Exemplo de entrega
+Assim, a dificuldade de manter hábitos saudáveis não está relacionada apenas à falta de vontade, mas também ao medo de se machucar, às limitações físicas, às dificuldades com a tecnologia e à ausência de acompanhamento durante a rotina.
 
-> Continuação do exemplo fictício do app "Estuda+", usando a persona [Marina Souza](4_personas.md). Copie a estrutura, não o conteúdo.
+# 2. Questões de Refinamento
 
-### 1) Cenário de Análise/Problema
+As perguntas abaixo ajudam a identificar informações que ainda não estão totalmente esclarecidas no cenário.
 
-Marina está no 4º semestre e, como sempre faz antes de provas, entra em um grupo de WhatsApp criado por uma colega para estudar Estruturas de Dados junto com mais quatro pessoas da turma. Na primeira semana, todo mundo manda mensagens animadas combinando encontros e trocando resumos. Mas ninguém definiu quem ficaria responsável por qual tópico, e aos poucos as mensagens ficam mais espaçadas. Duas semanas antes da prova, o grupo está praticamente silencioso — só restam mensagens antigas sem resposta. Marina não sabe se deve cobrar os colegas, criar outro grupo do zero ou simplesmente desistir e estudar sozinha, como acabou fazendo nas últimas duas vezes.
+Sobre João Batista:
 
-### 2) Questões de Refinamento
+1. O que faz João desistir dos exercícios: as dores, o medo de se machucar ou a dificuldade de compreender as instruções?
+2. Ele sente dores diariamente ou principalmente depois de realizar determinados movimentos?
+3. Já tentou utilizar aplicativos de exercícios anteriormente? Quais dificuldades encontrou?
+4. Ele costuma realizar atividades físicas sozinho ou depende da presença de outra pessoa?
+5. O medo de sofrer uma queda interfere em outras atividades cotidianas?
 
-- Isso acontece com todos os grupos de estudo da Marina ou só com alguns?
-- Por que ninguém assume a organização do grupo depois da primeira semana?
-- O problema é falta de ferramenta (lembrete, divisão de tarefas) ou falta de compromisso dos colegas?
-- Existe um momento específico em que o grupo começa a esvaziar?
-- Marina já tentou algo para reverter a situação? O que aconteceu?
+Sobre Maria Aparecida:
 
-### 3) Refinamento do Cenário de Análise/Problema
+6. Maria esquece os exercícios por falta de organização ou porque não possui motivação para realizá-los?
+7. Ela consegue compreender vídeos explicativos ou também apresenta dificuldades para acompanhar instruções visuais?
+8. A ausência de companhia é um dos principais motivos para abandonar suas atividades?
+9. Com que frequência ela esquece os horários de hidratação e suas recomendações de saúde?
 
-Nas três últimas vezes em que Marina participou de grupos de estudo, o padrão se repetiu: o grupo é criado de forma informal, sem que ninguém assuma explicitamente a organização, e sem dividir quem estuda qual tópico. Passada a primeira semana — justamente quando o volume de conteúdo aumenta e a rotina de estágio de Marina fica mais apertada —, as respostas somem. Ela já tentou mandar mensagem cobrando o grupo duas vezes, mas se sentiu "chata" fazendo isso e parou. O problema não é falta de vontade de estudar em grupo: é a ausência de qualquer estrutura (divisão de tópicos, lembretes, um responsável) que sustente o grupo depois do entusiasmo inicial.
+Sobre Roberto Batista:
 
-### 4) Contexto de Uso
+10. Com que frequência Roberto consegue visitar ou conversar com o pai?
+11. A preocupação acontece principalmente durante o horário de trabalho?
+12. João costuma contar ao filho quando sente dores ou prefere minimizar os sintomas?
+13. Roberto já tentou alguma maneira de acompanhar a rotina do pai à distância?
 
-- Marina usa o celular entre aulas e à noite, geralmente em casa ou na biblioteca da faculdade, com Wi-Fi ou 4G.
-- Contexto social: grupo de 4-6 colegas de turma, sem hierarquia definida — ninguém "responsável" formalmente pelo grupo.
-- O problema se intensifica na semana anterior às provas, quando o volume de conteúdo e a ansiedade aumentam.
-- Marina normalmente está com atenção dividida (entre uma aula e outra, ou cansada depois do estágio) quando tenta engajar o grupo.
+Sobre o contexto geral:
 
-### 5) Jornada do Usuário (atual, sem solução) — Marina
+14. Os idosos possuem acesso frequente à internet e smartphones?
+15. As dificuldades acontecem apenas durante o uso de aplicativos ou também na compreensão de orientações médicas?
+16. Existe algum familiar ou profissional disponível para acompanhar os exercícios presencialmente?
 
-| Etapa | O que acontece | Estado emocional |
-| :---- | :---- | :---- |
-| 1. Criação do grupo | Uma colega cria um grupo no WhatsApp e convida a turma para estudar juntos. | Animada |
-| 2. Primeira semana | Mensagens trocadas com entusiasmo, mas sem definir quem estuda o quê. | Confiante |
-| 3. Silêncio no grupo | Colegas param de responder; ninguém assume a organização. | Frustrada |
-| 4. Tentativa de reverter | Marina manda uma mensagem cobrando o grupo; poucas ou nenhuma resposta. | Insegura |
-| 5. Véspera da prova | Marina desiste do grupo e estuda sozinha, sem saber se cobriu os tópicos certos. | Exausta / decepcionada |
+# 3. Refinamento do Cenário de Análise/Problema
 
-```mermaid
-journey
-    title Jornada atual de Marina (sem solução)
-    section Formar o grupo
-      Colega cria grupo no WhatsApp: 8: Marina
-      Trocar mensagens animadas na 1ª semana: 7: Marina
-    section Grupo esvazia
-      Colegas param de responder: 3: Marina
-      Cobrar o grupo, sem retorno: 2: Marina
-    section Prova se aproxima
-      Estudar sozinha, sem saber se cobriu tudo: 1: Marina
-```
+Observação: como ainda não foram fornecidas respostas às perguntas de refinamento, esta versão é uma hipótese de aprofundamento baseada nas informações disponíveis nas personas e nos mapas de empatia. Não representa respostas confirmadas pela pesquisa.
+
+João Batista, de 72 anos, passa boa parte do dia sozinho em casa, principalmente durante o horário comercial, quando seus filhos estão trabalhando. Sua rotina é predominantemente sedentária, marcada por longos períodos sentado assistindo à televisão.
+
+Apesar das recomendações médicas para manter uma rotina de atividades físicas, João não consegue estabelecer esse hábito. As dores nas articulações tornam alguns movimentos desconfortáveis, enquanto o medo de realizar exercícios incorretamente aumenta sua insegurança.
+
+Quando tenta procurar orientações na internet, encontra dificuldades para acompanhar as demonstrações e ler as instruções apresentadas em seu smartphone. Os aplicativos que experimentou possuem textos pequenos, botões difíceis de identificar e atividades que não parecem adequadas às suas limitações. Sem saber se está executando os movimentos corretamente, prefere interromper a atividade a correr o risco de se machucar.
+
+O problema se repete principalmente nos momentos em que está sozinho e não possui alguém para esclarecer suas dúvidas. Embora tenha consciência da importância dos exercícios, sua falta de confiança acaba impedindo que mantenha uma rotina consistente. Com o passar do tempo, João continua sedentário e fica cada vez mais preocupado com a possibilidade de perder sua autonomia.
+
+A situação também afeta seu filho, Roberto. Durante o expediente, ele tenta conversar com o pai pelo telefone, mas não consegue acompanhar sua rotina presencialmente. Como João costuma minimizar suas dores, Roberto não tem certeza sobre a frequência das atividades físicas ou sobre as condições do pai durante o dia. A possibilidade de uma queda enquanto João está sozinho aumenta sua ansiedade e sentimento de culpa.
+
+Maria Aparecida enfrenta uma dificuldade complementar. Mesmo recebendo orientações profissionais, esquece os horários de hidratação e a sequência dos exercícios. Quando está sozinha, sente falta de incentivo e acaba adiando suas atividades. Sua dificuldade com aplicativos e configurações do celular também faz com que dependa dos netos para determinadas tarefas.
+
+Dessa maneira, os três enfrentam problemas relacionados à manutenção de uma rotina saudável na terceira idade. Enquanto João sofre principalmente com a insegurança física e as dificuldades de interação com a tecnologia, Maria enfrenta o esquecimento e a falta de motivação. Roberto, por sua vez, convive com a preocupação de não conseguir acompanhar a saúde do pai à distância.
+
+# 4. Contexto de Uso
+
+O problema acontece principalmente no ambiente doméstico, durante a rotina diária dos idosos. A casa é o espaço onde João e Maria passam boa parte do tempo e onde tentam realizar atividades físicas sem acompanhamento presencial constante.
+
+Contexto físico
+
+- Residências com espaços limitados para movimentação.
+- Idosos que podem apresentar dores articulares e limitações motoras.
+- Uso de smartphones para acessar informações e conteúdos relacionados à saúde.
+- Atividades realizadas frequentemente sem supervisão de familiares ou profissionais.
+- Possíveis obstáculos domésticos que aumentam o risco de quedas.
+
+Contexto social
+
+- Filhos e familiares possuem compromissos profissionais e nem sempre conseguem acompanhar os idosos.
+- A convivência social pode ser limitada durante os dias úteis.
+- A presença de familiares acontece principalmente em ligações telefônicas e visitas ocasionais.
+- Existe uma preocupação constante dos familiares com a segurança e a independência dos idosos.
+
+Contexto econômico e cultural
+
+- Os idosos possuem uma rotina de aposentadoria e dependem de seus recursos financeiros para as despesas cotidianas.
+- A contratação frequente de acompanhamento profissional pode representar um custo adicional.
+- Existe uma diferença de familiaridade tecnológica entre gerações.
+- Alguns idosos possuem receio de utilizar tecnologias novas por acreditarem que elas são complexas ou não foram desenvolvidas considerando suas necessidades.
+- As recomendações médicas e fisioterapêuticas influenciam diretamente os hábitos de saúde.
+
+Informações do ambiente que devem ser consideradas antes de qualquer interação
+
+- Condições de iluminação e visibilidade da tela.
+- Tamanho dos textos e facilidade de identificação dos elementos.
+- Capacidade motora para tocar e interagir com o smartphone.
+- Familiaridade do usuário com dispositivos digitais.
+- Condições físicas do idoso no momento da atividade.
+- Disponibilidade de espaço seguro para movimentação.
+- Presença ou ausência de familiares e outras pessoas no ambiente.
+- Possibilidade de interrupções durante a atividade.
+
+O que normalmente está acontecendo quando o problema ocorre?
+
+João geralmente está sozinho em casa, assistindo à televisão ou realizando atividades domésticas. Em algum momento, lembra das recomendações médicas e considera fazer alongamentos, mas acaba desistindo por causa das dores ou da insegurança sobre os movimentos.
+
+Maria enfrenta situações semelhantes durante períodos de ociosidade. Mesmo quando pretende realizar suas atividades, pode esquecer os horários ou perder a motivação por não ter companhia.
+
+Já Roberto enfrenta o problema em outro ambiente: seu local de trabalho. Enquanto está ocupado com suas responsabilidades profissionais, pensa nas condições do pai e sente dificuldade em conciliar suas obrigações com a preocupação familiar.
+
+# 5. Jornada do Usuário (atual, sem solução)
+
+A jornada abaixo representa João Batista enfrentando suas dificuldades durante um dia comum em casa, sem utilizar qualquer solução tecnológica desenvolvida pela equipe.
+
+| Etapa | Experiência | Estado emocional | Nota |
+|---|---|---|---:|
+| 1. Início do dia | João acorda e realiza suas atividades habituais, mas sente desconforto nas articulações. | Desânimo | 5 |
+| 2. Percepção do problema | Lembra das recomendações médicas e percebe que precisa se movimentar mais. | Preocupação | 4 |
+| 3. Busca por orientação | Procura exercícios na internet, mas encontra instruções pequenas e difíceis de compreender. | Confusão | 3 |
+| 4. Tentativa de exercício | Tenta realizar alguns alongamentos sozinho, mas sente insegurança sobre os movimentos. | Medo | 2 |
+| 5. Desistência | Interrompe os exercícios por receio de sofrer alguma lesão e volta a assistir televisão. | Frustração | 1 |
+| 6. Preocupação familiar | Roberto liga durante o trabalho para saber como o pai está. João minimiza suas dificuldades e Roberto continua preocupado. | Insegurança | 3 |
+| 7. Fim do dia | João termina o dia sem conseguir estabelecer uma rotina de exercícios e continua preocupado com sua independência. | Tristeza e desmotivação | 2 |
+
+## Diagrama de Jornada — Mermaid
+<img width="5400" height="1080" alt="image" src="https://github.com/user-attachments/assets/aa42a476-02ad-48c7-8c6e-9229480587f2" />
+
