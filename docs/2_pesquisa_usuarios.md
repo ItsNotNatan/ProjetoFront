@@ -3,52 +3,40 @@
 > **_NOTE:_**: O objetivo desta entrega é planejar e registrar como a equipe vai ouvir os usuários reais (ou representativos do público-alvo) antes de avançar para personas e cenários. Não é para relatar impressões da equipe — é para descrever o que será perguntado, para quem, como e por quê.
 
 1) **Identificação de Necessidades dos Usuários e Requisitos de UX**
-- Que dados coletar? (comportamentos, dores, expectativas, contexto de uso, frequência de uso, nível de familiaridade com tecnologia, etc.)
-- De quem coletar? (perfil do público-alvo e critérios de seleção dos participantes — quantos, onde encontrá-los)
+Foram coletadas informações sobre idade, escolaridade, ocupação, frequência de atividades físicas, tipos de exercícios praticados, restrições médicas e familiaridade com tecnologia. Também foram analisadas as preferências dos usuários em relação ao aplicativo, como botões grandes, imagens, comandos por voz, dashboard simples e tipos de alertas. A pesquisa foi realizada com 46 pessoas com 60 anos ou mais, de diferentes regiões do Brasil, níveis de escolaridade e familiaridade com tecnologia.
 
 2) **Aspectos Éticos**
-- Seu projeto deverá considerar aspectos éticos? Justifique usando os conceitos da aula.
-- Como o consentimento dos participantes será obtido (termo de consentimento)?
-- Como os dados coletados serão armazenados, anonimizados e descartados, considerando a LGPD?
+Foi feito respeitando a privacidade, a autonomia e a segurança dos participantes. Como a pesquisa envolve informações sobre saúde e restrições médicas, esses dados devem ser tratados com cuidado. Os participantes serão informados sobre o objetivo da pesquisa e sobre como suas respostas serão utilizadas. A participação será voluntária, mediante consentimento, e poderão desistir a qualquer momento. Os dados serão armazenados em ambiente digital com acesso restrito à equipe e de forma anônima. Informações pessoais não serão divulgados. As respostas serão utilizadas apenas para fins acadêmicos e descartadas após o término do projeto, seguindo as orientações da LGPD.
 
 3) **Ferramentas de Coleta de Dados (três técnicas diferentes)**
 
-> **_NOTE:_**: Escolher técnicas complementares (ex.: uma qualitativa individual, uma qualitativa em grupo, uma quantitativa), não três variações da mesma técnica.
+Instrumento 1 – Questionário online (Google Forms)
+Objetivo: Coletar informações sobre o público-alvo, seus hábitos, dificuldades e preferências.
+Como aplicar: O formulário será disponibilizado por meio de um link, permitindo que os participantes respondam individualmente. Caso necessário, poderão receber ajuda para preencher as respostas.
+Instrumento: Questionário online utilizado na pesquisa, que recebeu 46 respostas.
 
-Para cada instrumento, apresente:
-- Nome do instrumento e objetivo de aplicação
-- Explicar como aplicar (serve para normalizar o processo de aplicação quando pessoas distintas aplicam o instrumento)
-- Instrumento (por exemplo, link do questionário no Google Forms, roteiro de entrevista, roteiro do Grupo Focal, etc)
+Instrumento 2 – Entrevista individual
+Objetivo: Entender melhor as dificuldades e necessidades das pessoas idosas em relação às atividades físicas e ao uso de aplicativos.
+Como aplicar: Será realizada uma conversa individual com alguns participantes, com duração aproximada de 10 a 15 minutos. Todos receberão as mesmas perguntas.
+Roteiro de perguntas:
 
----
+-Você sente dificuldades para praticar atividades físicas?
+-O que dificulta sua rotina de exercícios?
+-Você tem facilidade para utilizar aplicativos?
+-Quais funcionalidades seriam mais úteis para você?
+-Você gostaria de receber lembretes sobre seus exercícios?
+-O que poderia tornar o aplicativo mais fácil de usar?
 
-## Exemplo de entrega
+Instrumento 3 – Grupo focal
+Objetivo: Conhecer diferentes opiniões e identificar funcionalidades importantes para o aplicativo.
+Como aplicar: Será formado um grupo de aproximadamente 5 a 8 pessoas idosas. Um integrante da equipe será responsável por conduzir a conversa e registrar as opiniões. A atividade terá duração aproximada de 30 minutos.
+Roteiro de discussão:
 
-> O exemplo abaixo é fictício — usa como cenário um app universitário de organização de grupos de estudo ("Estuda+") apenas para ilustrar o **nível de detalhe e formato** esperado. Não copie o conteúdo, copie a estrutura.
+Vocês acham útil um aplicativo para acompanhar atividades físicas?
+Preferem botões grandes, imagens ou comandos por voz?
+Quais tipos de alertas seriam mais importantes?
+O aplicativo deveria permitir cadastrar restrições médicas?
+O que não poderia faltar nesse aplicativo?
 
-### 1) Identificação de Necessidades dos Usuários e Requisitos de UX
+[Formulário sem título.csv](https://github.com/user-attachments/files/34590670/Formulario.sem.titulo.csv)
 
-**Que dados coletar?**
-- Como os alunos hoje organizam sessões de estudo em grupo (ferramentas usadas, frequência).
-- Principais dificuldades para combinar horários e manter o grupo engajado.
-- Expectativas sobre lembretes, divisão de tópicos de estudo e acompanhamento de progresso.
-
-**De quem coletar?**
-- Alunos de graduação de Ciência da Computação, do 2º ao 6º semestre, que já participaram de pelo menos um grupo de estudo nos últimos 6 meses.
-- Amostra mínima: 8 alunos para entrevistas, 40 respostas para o questionário.
-- Recrutamento: convite em grupos de turma no WhatsApp/Discord.
-
-### 2) Aspectos Éticos
-
-Sim, o projeto envolve dados pessoais de participantes (nome, e-mail, respostas sobre hábitos de estudo), portanto:
-- Será aplicado um **Termo de Consentimento Livre e Esclarecido (TCLE)** antes de qualquer coleta, explicando objetivo da pesquisa, uso dos dados e direito de desistência a qualquer momento.
-- Os dados serão coletados de forma **anonimizada** (sem nome/e-mail nas respostas do questionário) e armazenados apenas na equipe, em conformidade com a LGPD (Lei n.º 13.709/2018).
-- Gravações de entrevista serão apagadas ao final do projeto, mantendo-se apenas as transcrições anonimizadas usadas na análise.
-
-### 3) Ferramentas de Coleta de Dados
-
-| Instrumento | Objetivo | Como aplicar | Link/Roteiro |
-| :---- | :---- | :---- | :---- |
-| **Entrevista semiestruturada** | Entender em profundidade como os alunos organizam e mantêm grupos de estudo, e onde o processo falha. | Sessão individual de 20-30 min, presencial ou por chamada de vídeo. Seguir o roteiro fixo, mas permitir perguntas de aprofundamento ("por quê?", "pode dar um exemplo?"). Gravar com autorização e transcrever depois. | Roteiro: 1) Como você organiza sessões de estudo hoje? 2) Conte sobre a última vez que um grupo de estudo não funcionou. 3) O que faria você usar um app específico para isso? |
-| **Questionário (Google Forms)** | Quantificar ferramentas usadas, frequência de grupos de estudo e principais frustrações, em uma amostra maior. | Divulgar o link em grupos de turma, aberto por 1 semana. Sem identificação pessoal, tempo estimado de resposta de 5 min. | `https://forms.google.com/exemplo-estuda-mais` *(placeholder — substituir pelo link real)* |
-| **Grupo focal** | Observar a discussão entre alunos sobre o que tornaria um grupo de estudo "bom", captando divergências de opinião difíceis de obter em entrevista individual. | Sessão única com 5-6 alunos, 45 min, mediada por um membro da equipe seguindo um roteiro de tópicos, com outro membro registrando anotações. | Roteiro de tópicos: hábitos atuais, ferramentas testadas e abandonadas, o que faria o grupo "durar" até a prova. |
