@@ -27,17 +27,15 @@
 3. **Metas de Usabilidade**
 
    1. **Qualitativo**
+O aplicativo deve proporcionar uma experiência simples, intuitiva e acessível para o público idoso, permitindo que os usuários realizem suas atividades sem dificuldades. A interface deve apresentar textos legíveis, botões de fácil identificação e instruções claras. Além disso, deve transmitir segurança e confiança durante o uso, principalmente no cadastro de informações pessoais e condições de saúde. Busca-se também proporcionar autonomia, motivação e satisfação aos usuários, incentivando a prática regular de atividades físicas por meio de planos personalizados e do acompanhamento de profissionais da saúde.
 
-    
-
-
-   2. **Quantitativo**  
+   3. **Quantitativo**  
     
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| Facilidade de … |  |  |
-|  |  |  |
-|  |  |  |
-|  | 1% |  |
-|  | 20% |  |
-| **Total** | **100%** |  |
+| Facilidade de cadastro | 20% | Pessoas ficam desmotivadas ao ter dificuldades pra cadastrar um usuário. |
+| Fácil acessibilidade | 10% | Um aplicativo voltado a idosos precisa ter opções instrutivas. |
+| Proposta do app | 50% | Além do app ser voltado a atividade física pra idosos, ele conta com suporte de médicos reais dispostos a ajudar.  |
+| Lista de restrições do usuário | 10% | O usuário pode cadastrar suas comorbidades assim gerando um plano mais coeso com suas necessidades. |
+| Suporte médico | 10% | Um profissional da saúde estará disponível pra ajudar o idoso caso necessário. |
+| **Total** | **100%** | O usuário que procura por um app que entende suas necessidades e ao mesmo tempo oferece suporte e incentivo para atividades físicas terá tudo isso dentro do app. |
