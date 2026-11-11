@@ -7,10 +7,10 @@
 
 | Característica | Descrição |
 | :---- | :---- |
-| Descrição do Software |  |
-| Descrição do Hardware |  |
-| LISTA DE Capacidades da Plataforma (com explicação) |  |
-| LISTA DE Restrições da Plataforma (com explicação) |  |
+| Descrição do Software | APP criado para ajudar pessoas idosas na realização de atividades físicas, com acompanhamento médico profissional e exercícios adaptados a necessidade. |
+| Descrição do Hardware | Um dispositivo móvel com IOS 15/Android 12 ou acima  |
+| LISTA DE Capacidades da Plataforma (com explicação) | Funções de adaptabilidade, restrições médicas e cronograma personalizado, perfil tanto pra idosos quanto pra profissionais. |
+| LISTA DE Restrições da Plataforma (com explicação) | Pouca variedade em exercícios. |
 
 2. **Princípios Gerais do Projeto (INCREMENTAR TABELA)**     
 
