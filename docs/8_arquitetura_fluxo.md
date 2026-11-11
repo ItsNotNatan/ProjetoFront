@@ -10,7 +10,5 @@
 
 2) **Fluxo do Usuário (User Flow)**
 
-> **_NOTE:_**: 1 fluxograma por funcionalidade principal (mínimo 4 funcionalidades diferentes), cada um com um texto explicando a funcionalidade e o objetivo do usuário.
+<img width="957" height="522" alt="Captura de tela 2026-11-11 101631" src="https://github.com/user-attachments/assets/334e4cd2-2d85-4f1c-b368-88c980366286" />
 
-- Para cada funcionalidade escolhida, desenhe o fluxograma de passos que o usuário percorre do início ao fim da tarefa (pontos de decisão, telas intermediárias, estados de erro/sucesso).
-- Destaque possíveis atalhos ou caminhos alternativos.
