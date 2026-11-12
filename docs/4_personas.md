@@ -4,7 +4,7 @@
 
 ## Persona primária: João Batista
 
-![foto de rosto ilustrativa](imagens/João Batista.png)
+![foto de rosto ilustrativa](imagens/JoaoBatistaPerfil.png)
 
 | Campo | Descrição |
 | :---- | :---- |
@@ -17,7 +17,7 @@
 
 ## Persona primária: Maria Aparecida
 
-![foto de rosto ilustrativa](imagens/mulher.png)
+![foto de rosto ilustrativa](imagens/MariaAparecidaPerfil.png)
 
 | Campo | Descrição |
 | :---- | :---- |
@@ -30,7 +30,7 @@
 
 ## Persona secundária: Roberto Batista
 
-![foto de rosto ilustrativa](imagens/roberto.jpeg)
+![foto de rosto ilustrativa](imagens/RobertoBatistaPerfil.png)
 
 | Campo | Descrição |
 | :---- | :---- |
