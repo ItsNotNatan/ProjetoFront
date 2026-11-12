@@ -34,6 +34,13 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | **10\.** | **Ajuda e documentação:** |
 | Mesmo que seja melhor que o sistema possa ser usado sem documentação, pode ser necessário fornecer ajuda e documentação. Tais informações devem ser fáceis de encontrar, ser centradas na tarefa do usuário, listar passos concretos a serem seguidos e não ser muito grandes. A ajuda deve estar facilmente acessível e on-line. |  |
 
+5 — Prevenção de erros -	O cadastro permite informar idade sem estabelecer limites mínimos ou máximos.	Gravidade 2
+6 — Reconhecimento em lugar de lembrança -	O campo de PIN não possui opção para visualizar os números digitados.	Gravidade 1
+6 — Reconhecimento em lugar de lembrança -	Os campos de celular e PIN da tela de login não possuem instruções.	Gravidade 1
+1 — Visibilidade do status do sistema -	Na tela principal do paciente, falhas ao carregar os dados são registradas apenas no console, sem informar o usuário.	Gravidade 3
+5 — Prevenção de erros -	O botão SOS não apresenta uma confirmação visual de envio antes da solicitação, embora apresente confirmação antes de acioná-la.	Gravidade 2
+6 — Reconhecimento em lugar de lembrança -	O menu de navegação apresenta a opção "Minha Conta", enquanto a página correspondente é identificada como "Perfil", criando uma diferença de nomenclatura.	Gravidade 1
+
 2\. A seguir, avalie o sistema procurando possíveis problemas de usabilidade.   
 3\. Quando um problema qualquer for detectado, classifique-o em uma das dez heurísticas de Nielsen, anotando o problema na tabela correspondente e atribuindo o **grau de severidade** (0 até 4\) para este problema (dado pela tabela 2\) e recomece novamente até não encontrar mais problemas de usabilidade.
 
@@ -47,10 +54,9 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | 3 | Grave | Problema de alta prioridade (deve ser reparado) |
 | 4 | Catastrófico | Muito grave, deve ser reparado de qualquer forma. |
 
-> **_NOTE:_**: **colocar o print**
 
-> **_NOTE:_**: **escolher a tabela de declaração de violação padrão da equipe**
 
-2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
-
-> **_NOTE:_**: **1 EXEMPLO DO SEU SISTEMA ONDE A HEURÍSTICA FOI ATENDIDA (ISSO NÃO É USADO NO MERCADO, SERVE APENAS PARA APRENDIZADO)**
+Ausência de limites para idade no cadastro -	2	Simples
+Falta de feedback em caso de falha no carregamento	- 3	Grave
+Mensagem de sucesso mesmo quando o SOS pode falhar	- 4	Catastrófico
+Botão "Voltar ao Início" não deixa clara a desistência do exercício -	2	Simples
