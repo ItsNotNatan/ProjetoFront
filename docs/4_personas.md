@@ -60,6 +60,8 @@
 
 ### Mapa de Empatia — Maria Aparecida
 
+![Mapa de empatia](imagens/Maria Aparecida.png)
+
 | Quadrante | Descrição |
 | :---- | :---- |
 | **Vê** | A casa silenciosa durante o dia; receitas e dicas de saúde em vídeos da internet; caixas de remédios acumulando sobre a mesa. |
