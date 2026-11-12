@@ -4,9 +4,18 @@
 
 1) **Arquitetura de Informação (Sitemap)**
 
-- Liste todas as telas/seções principais do produto ou serviço.
-- Organize essas telas em uma hierarquia (diagrama de sitemap), mostrando como estão agrupadas e conectadas.
-- Justifique a organização escolhida com base nas necessidades identificadas nas personas e cenários.
+Acesso: Login; cadastro de pessoa idosa.
+Área da pessoa idosa: início; perfil e edição; agenda de exercícios; detalhes e conclusão de exercício; histórico de atividades; envio de alerta.
+Área profissional: início; lista e perfil de pessoas idosas; equipe e cadastro de profissionais; turmas e gerenciamento de alunos; acervo de exercícios; prescrições individuais ou para turmas; alertas pendentes e resolução.
+Gestão: Essa área é para o diretor, ele pode gerenciar tanto os alunos quanto doutores.
+
+<img width="4012" height="3166" alt="mermaid-diagram (3)" src="https://github.com/user-attachments/assets/0491b06d-97a9-4414-9ebd-4ca0ec42cc2c" />
+
+Pessoa idosa: precisa encontrar a agenda com facilidade, consultar o exercício, registrar que o concluiu e acessar o histórico. O envio de alerta fica na mesma área de uso, como um caminho direto para pedir ajuda.
+
+Profissional: precisa acompanhar pessoas idosas, organizar alunos em turmas, selecionar exercícios e prescrevê-los. Por isso, pessoas, turmas e acervo ficam como seções de trabalho que levam à prescrição e, depois, à agenda dos destinatários.
+
+Diretor/Gestão: administra as funções e permissões dos profissionais e alunos.
 
 2) **Fluxo do Usuário (User Flow)**
 
