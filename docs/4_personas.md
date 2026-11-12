@@ -60,7 +60,7 @@
 
 ### Mapa de Empatia — Maria Aparecida
 
-![Mapa de empatia](imagens/Maria Aparecida.png)
+![Mapa de empatia](imagens/MariaAparecida.png)
 
 | Quadrante | Descrição |
 | :---- | :---- |
