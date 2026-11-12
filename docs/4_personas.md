@@ -4,7 +4,7 @@
 
 ## Persona primária: João Batista
 
-![foto de rosto ilustrativa](imagens/homem.png)
+![foto de rosto ilustrativa](imagens/João Batista.png)
 
 | Campo | Descrição |
 | :---- | :---- |
