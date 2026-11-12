@@ -63,3 +63,7 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | Falta de feedback em caso de falha no carregamento | 3 | Grave |
 | Mensagem de sucesso mesmo quando o SOS pode falhar | 4 | Catastrófico |
 | Botão "Voltar ao Início" não deixa clara a desistência do exercício | 2 | Simples |
+
+<img width="642" height="690" alt="image" src="https://github.com/user-attachments/assets/14b0d18d-af72-4e67-8049-452760af310f" />
+<img width="922" height="707" alt="image" src="https://github.com/user-attachments/assets/30f15731-4d55-4aa3-8c95-9c697477c8b0" />
+
