@@ -48,7 +48,6 @@
 ![Mapa de empatia](imagens/JoaoBatista.png)
 
 ### Mapa de Empatia — João Batista
-
 | Quadrante | Descrição |
 | :---- | :---- |
 | **Vê** | Colegas de sua idade perdendo a mobilidade; os filhos sempre correndo e ocupados com o trabalho; programas de TV sobre qualidade de vida na velhice. |
@@ -70,9 +69,10 @@
 | **Pensa e sente** | Sente-se solitária durante a rotina de exercícios; pensa que a tecnologia não foi feita para pessoas da sua idade; deseja ser mais disposta. |
 | **Dores** | Esquecimento das rotinas médicas e de hidratação; frustração ao tentar usar aplicativos complexos; falta de motivação para se manter ativa diariamente. |
 | **Ganhos** | Lembretes sonoros amigáveis que guiam o dia; vídeos claros ensinando a fazer os exercícios na cadeira; sensação de pertencimento e autonomia digital. |
-![Mapa de empatia](imagens/RobertoBatista.png)
 
 ### Mapa de Empatia — Roberto Batista (Familiar)
+
+![Mapa de empatia](imagens/RobertoBatista.png)
 
 | Quadrante | Descrição |
 | :---- | :---- |
