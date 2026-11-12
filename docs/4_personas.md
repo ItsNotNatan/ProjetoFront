@@ -70,7 +70,7 @@
 | **Dores** | Esquecimento das rotinas médicas e de hidratação; frustração ao tentar usar aplicativos complexos; falta de motivação para se manter ativa diariamente. |
 | **Ganhos** | Lembretes sonoros amigáveis que guiam o dia; vídeos claros ensinando a fazer os exercícios na cadeira; sensação de pertencimento e autonomia digital. |
 
-### Mapa de Empatia — Roberto Batista (Familiar)
+### Mapa de Empatia — Roberto Batista
 
 ![Mapa de empatia](imagens/RobertoBatista.png)
 
